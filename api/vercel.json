@@ -1,10 +1,4 @@
 {
   "public": true,
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "dist/server.js"
-    }
-  ],
-  "outputDirectory": "."
+  "outputDirectory": "dist"
 }
