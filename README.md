@@ -1,4 +1,7 @@
 # api-spa-playground
 
-## API
-Refer to API [README](api/README.md)
+## Backend
+Refer to API [README](api/README.md).
+
+## Frontend
+Refer to SPA README.
