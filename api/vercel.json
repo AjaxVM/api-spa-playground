@@ -1,7 +1,11 @@
 {
-  "functions": {
-    "dist/index.js": {
-      "includeFiles": "dist/**"
+  "github": {
+    "enabled": false
+  },
+  "builds": [
+    {
+      "src": "dist/**",
+      "use": "@vercel/node"
     }
-  }
+  ]
 }
