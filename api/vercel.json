@@ -1,15 +1,8 @@
 {
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "src/server.ts"
+  "functions": {
+    "src/server.js": {
+      "includeFiles": "src/**"
     }
-  ],
-  "builds": [
-    {
-      "src": "src/server.ts",
-      "use": "@vercel/node"
-    }
-  ],
+  },
   "installCommand": "npm ci"
 }
