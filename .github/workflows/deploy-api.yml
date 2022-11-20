@@ -1,7 +1,7 @@
-name: deploy website
+name: deploy api
 on: [push, pull_request]
 jobs:
-  deploy:
+  deploy-api:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -17,4 +17,4 @@ jobs:
           # vercel-args: '--prod' #Optional
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID}}  #Required
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID}} #Required 
-          working-directory: ./api
+          # working-directory: ./api
