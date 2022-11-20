@@ -1,6 +1,6 @@
 {
   "functions": {
-    "src/server.js": {
+    "src/server.ts": {
       "includeFiles": "src/**"
     }
   },
