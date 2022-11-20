@@ -5,4 +5,4 @@ A playground project to setup an Express API and React frontend with Typescript.
 Refer to API [README](api/README.md).
 
 ## Frontend
-Refer to SPA README.
+Refer to SPA [README](spa/README.md).
