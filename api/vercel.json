@@ -5,6 +5,6 @@
       "destination": "/"
     }
   ],
-  "buildCommand": "npm build",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist"
 }
