@@ -1,6 +1,3 @@
 {
-  "github": {
-    "enabled": false
-  },
-  "buildsCommand": ""
+  "installCommand": "npm ci"
 }
