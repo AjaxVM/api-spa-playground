@@ -9,5 +9,3 @@ app.use(v1)
 app.listen(3000, () => {
   console.log('API running at http://localhost:3000')
 })
-
-export default app
