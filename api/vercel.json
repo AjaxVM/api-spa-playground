@@ -5,11 +5,5 @@
       "dest": "src/server.ts"
     }
   ],
-  "builds": [
-    {
-      "src": "src/server.ts",
-      "use": "@vercel/node"
-    }
-  ],
   "installCommand": "npm ci"
 }
