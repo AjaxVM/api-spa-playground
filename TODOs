@@ -1,0 +1,9 @@
+Add default 404 to API
+Add error handling to API
+Add http errors to API v1
+Setup OpenApiValidator and routes in API v1
+Create resolvers in API v1
+Create context middleware (powers resolvers) in API v1
+Add Authn/Authz to API
+Setup basic REST frontend
+Setup Sequelize SQLite and seeders for API
