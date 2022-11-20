@@ -2,11 +2,11 @@
   "name": "api-playground",
   "version": "0.0.1",
   "description": "A simple api playground to test ideas out",
-  "main": "src/server.ts",
+  "main": "src/index.ts",
   "scripts": {
-    "start": "nodemon src/server.ts",
+    "start": "nodemon src/index.ts",
     "build": "tsc",
-    "start:build": "node --enable-source-maps dist/server.js",
+    "start:build": "node --enable-source-maps dist/index.js",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
