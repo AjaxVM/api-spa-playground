@@ -1,8 +1,11 @@
 import express from 'express'
-import routes from './routes'
+import apis from './apis'
+import { db } from './lib'
 
-const router = express.Router()
+export const routes = express.Router()
 
-router.use('/v1', routes)
+routes.use('/v1', apis)
 
-export default router
+export const setup = async (): Promise<void> => {
+  await db.connect()
+}
