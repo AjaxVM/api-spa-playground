@@ -7,3 +7,7 @@ Create context middleware (powers resolvers) in API v1
 Add Authn/Authz to API
 Setup basic REST frontend
 Setup Sequelize SQLite and seeders for API
+Try Render.com for deployment
+  looks like a render.yaml file
+  support monorepo it looks like (can set root directory to avoid overbuilding, and build glob to limit which files will trigger a build)
+  can deploy frontend, api and postgresql database this way...

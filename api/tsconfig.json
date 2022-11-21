@@ -9,7 +9,7 @@
     "strictNullChecks": true, 
     "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
     "outDir": "dist",
-    "sourceMap": true
-  },
-  "exclude": ["node_modules"]
+    "sourceMap": true,
+    "typeRoots": ["./@types"]
+  }
 }
